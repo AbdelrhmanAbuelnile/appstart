@@ -100,7 +100,7 @@ function Footer(){
             
             </div>
 
-            <p className="md:text-3xl text-sm font-medium">Copyright © { currentYear } | <a href={LinkedIn} className="hover:text-fourth" target='_blank'>AppStart</a> </p>
+            <p className="md:text-sm text-sm font-medium">Copyright © { currentYear } | <a href={LinkedIn} className="hover:text-fourth" target='_blank'>AppStart</a> </p>
 
         </footer>
     )
