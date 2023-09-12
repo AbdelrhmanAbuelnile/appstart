@@ -9,7 +9,7 @@ function Header(){
             <img src={logo} alt="app start logo" className="w-8"/>
             <nav>
                 <Menu />
-                <ul className="hidden  lg:flex lg:flex-row justify-center items-center gap-8">
+                <ul className="hidden  lg:flex lg:flex-row justify-center items-center gap-8 text-xl text-third font-medium">
                     <li>
                         <a href="#">Home</a>
                     </li>
@@ -17,7 +17,7 @@ function Header(){
                         <a href="#">About Us</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="#sevices">Services</a>
                     </li>
                     <li>
                         <a href="#">Portfolio</a>
