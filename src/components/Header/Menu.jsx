@@ -33,14 +33,14 @@ function Menu() {
             <a href="#">About Us</a>
           </li>
           <li className="border-b border-fourth w-full pl-2 hover:pl-5 duration-300">
-            <a href="#sevices">Services</a>
+            <a href="#portfolio">Portfolio</a>
           </li>
           <li className="border-b border-fourth w-full pl-2 hover:pl-5 duration-300">
-            <a href="#">Portfolio</a>
+            <a href="#sevices">Services</a>
           </li>
-          <li className="border-b border-fourth w-full pl-2 hover:pl-5 duration-300 pb-2">
+          {/* <li className="border-b border-fourth w-full pl-2 hover:pl-5 duration-300 pb-2">
             <a href="#">Contact Us</a>
-          </li>
+          </li> */}
         </ul>
       }
     </div>

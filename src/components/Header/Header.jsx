@@ -19,14 +19,14 @@ function Header(){
                         <a href="#">About Us</a>
                     </li>
                     <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
                         <a href="#sevices">Services</a>
                     </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
+                    {/* <li>
                         <a href="#">Contact Us</a>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
         </header>

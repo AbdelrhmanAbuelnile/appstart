@@ -5,7 +5,7 @@ import moza from '../../assets/moza.png'
 function PotrfolioContainer(){
 
     return(
-        <div className="flex flex-col justify-center items-center">
+        <section id='portfolio' className="flex flex-col justify-center items-center">
            
             <div
                 className="flex flex-col md:flex-row justify-center items-center gap-10 pt-40 pb-16 px-4 lg:mb-32 lg:px-20"
@@ -37,7 +37,7 @@ function PotrfolioContainer(){
                 </div>
             </div>
 
-        </div>
+        </section>
     )
 }
 
