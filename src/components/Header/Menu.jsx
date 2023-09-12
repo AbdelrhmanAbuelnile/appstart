@@ -23,7 +23,7 @@ function Menu() {
           className="flex flex-col justify-center items-center gap-6
             bg-secondry rounded-lg shadow-lg shadow-slate-500 w-60
             pt-2 absolute top-[90px] right-4
-            text-3xl text-fourth"
+            text-xl font-medium text-fourth"
           >
           <li className="border-b border-fourth w-full pl-2 hover:pl-5 pt-4">
             <a href="#">Home</a>
