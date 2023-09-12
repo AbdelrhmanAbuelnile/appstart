@@ -4,7 +4,7 @@ import Menu from "./Menu"
 function Header(){
     return(
         <header
-            className="bg-primary w-full py-4 px-4 lg:px-28 sticky flex flex-row justify-between items-center"
+            className="bg-primary w-full py-4 px-4 lg:px-28 fixed flex flex-row justify-between items-center z-10"
         >
             <img src={logo} alt="app start logo" className="w-8"/>
             <nav>

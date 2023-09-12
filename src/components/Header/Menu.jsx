@@ -9,7 +9,7 @@ function Menu() {
     setIsOpen(!isOpen)
   }
   return (
-    <>
+    <div className='lg:hidden'>
 
       {isOpen? 
         <CloseIcon className='text-third' fontSize='large' onClick={toggleMenu} />
@@ -20,8 +20,9 @@ function Menu() {
       { isOpen
           &&
         <ul
+          onClick={toggleMenu}
           className="flex flex-col justify-center items-center gap-6
-            bg-secondry rounded-lg shadow-lg shadow-slate-500 w-60
+            bg-secondry rounded-lg shadow-lg shadow-slate-500 w-52
             pt-2 absolute top-[90px] right-4
             text-xl font-medium text-fourth"
           >
@@ -32,7 +33,7 @@ function Menu() {
             <a href="#">About Us</a>
           </li>
           <li className="border-b border-fourth w-full pl-2 hover:pl-5 duration-300">
-            <a href="#">Services</a>
+            <a href="#sevices">Services</a>
           </li>
           <li className="border-b border-fourth w-full pl-2 hover:pl-5 duration-300">
             <a href="#">Portfolio</a>
@@ -42,7 +43,7 @@ function Menu() {
           </li>
         </ul>
       }
-    </>
+    </div>
   );
 }
 

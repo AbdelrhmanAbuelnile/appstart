@@ -14,6 +14,7 @@ export default {
         'secondry': '#176B87',
         'third': '#64CCC5',
         'fourth': '#EEEEEE',
+        'fifth': '#242CBF'
       }
     },
   },
