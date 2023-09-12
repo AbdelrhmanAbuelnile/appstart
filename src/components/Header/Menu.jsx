@@ -26,9 +26,9 @@ function Menu() {
             pt-2 absolute top-[90px] right-4
             text-xl font-medium text-fourth"
           >
-          <li className="border-b border-fourth w-full pl-2 hover:pl-5 pt-4">
+          {/* <li className="border-b border-fourth w-full pl-2 hover:pl-5 pt-4">
             <a href="#">Home</a>
-          </li>
+          </li> */}
           <li className="border-b border-fourth w-full pl-2 hover:pl-5 duration-300">
             <a href="#">About Us</a>
           </li>

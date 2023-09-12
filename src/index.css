@@ -7,3 +7,9 @@
 html {
     scroll-behavior: smooth;
 }
+
+@layer components  {
+    .backdrop-modal {
+        @apply fixed inset-0 z-50 flex items-center justify-center bg-[#000000e1] bg-opacity-50;
+    }
+}

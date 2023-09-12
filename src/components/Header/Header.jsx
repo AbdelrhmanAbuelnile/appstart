@@ -6,13 +6,15 @@ function Header(){
         <header
             className="bg-primary w-full py-4 px-4 lg:px-28 fixed flex flex-row justify-between items-center z-10"
         >
-            <img src={logo} alt="app start logo" className="w-8"/>
+
+            <a href="#"><img src={logo} alt="app start logo" className="w-8"/></a>
+            
             <nav>
                 <Menu />
                 <ul className="hidden  lg:flex lg:flex-row justify-center items-center gap-8 text-xl text-third font-medium">
-                    <li>
+                    {/* <li>
                         <a href="#">Home</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="#">About Us</a>
                     </li>

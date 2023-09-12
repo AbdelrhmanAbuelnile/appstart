@@ -18,7 +18,7 @@ export default {
         'primary': '#053B50',
         'secondry': '#176B87',
         'third': '#64CCC5',
-        'fourth': '#e2e2e2',
+        'fourth': '#fafafa',
         'fifth': '#242CBF'
       }
     },
