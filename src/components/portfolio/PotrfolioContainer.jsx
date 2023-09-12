@@ -1,6 +1,6 @@
 import manga from '../../assets/betybetk.png'
 import moza from '../../assets/moza.png'
-import { motion } from "framer-motion"
+// import { motion } from "framer-motion"
 
 function PotrfolioContainer(){
 
