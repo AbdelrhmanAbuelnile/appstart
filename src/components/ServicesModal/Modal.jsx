@@ -1,19 +1,63 @@
-// import BackDrop from "../BackDrop"
+import { Link } from "react-router-dom";
+import BackDrop from "../BackDrop";
+import CloseIcon from '@mui/icons-material/Close';
 
+function Modal({ toggleModal, text }) {
+  return (
+    <BackDrop toggleModal={toggleModal}>
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="
+            bg-fourth w-8/12 h-fit py-11 lg:pt-11 lg:pb-5 lg:w-1/4 
+            flex justify-center items-start px-4 flex-col
+            rounded-lg shadow-md shadow-slate-400
+            relative
+            
+        "
+      >
+        <div className="flex flex-col justify-center items-start gap-10 mb-10">
+          {text.map((el) => (
+            <p 
+                key={el.name}
+                className="text-2xl text-primary font-semibold"
+            >
+                {el.name}
+            </p>
+          ))}
+        </div>
+        <Link 
+            to={'/about'}
+            className="
+                align-self text-2xl text-white font-semibold
+                hover:text-primary duration-150
+                px-4 py-2 rounded-2xl bg-pink-500 
+                shadow-md shadow-slate-400
+            " 
+        >
+            Get Started
+        </Link>
+        <CloseIcon
+            onClick={toggleModal} 
+            fontSize='large'
+            className='
+                text-secondry
+                absolute top-1 right-3 cursor-pointer
+            '
+        />
 
-// function Modal({toggleModal}){
+        <span 
+            className="
+                text-xl text-white font-semibold
+                bg-third px-4 py-2 rounded-3xl
+                absolute -top-6 -left-12
+            "
+        >
+            WE DO
+        </span>
 
+      </div>
+    </BackDrop>
+  );
+}
 
-//     return(
-//         <BackDrop toggleModal={toggleModal}>
-//             <div
-//                 onClick={(e)=> e.stopPropagation()} 
-//                 className="bg-fourth w-1/4 h-1/4 flex justify-center items-center flex-col gap-4">
-//                 <h1>Modal</h1>
-//                 <button onClick={toggleModal}>Close</button>
-//             </div>
-//         </BackDrop>
-//     )
-// }
-
-// export default Modal
+export default Modal;
