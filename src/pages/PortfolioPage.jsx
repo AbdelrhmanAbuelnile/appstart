@@ -2,7 +2,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header/Header";
 import PotrfolioContainer from "../components/portfolio/PotrfolioContainer";
 
-function Portfolio(){
+function PortfolioPage(){
     return(
         <>
             <Header />
@@ -13,4 +13,4 @@ function Portfolio(){
     )
 }
 
-export default Portfolio
+export default PortfolioPage
