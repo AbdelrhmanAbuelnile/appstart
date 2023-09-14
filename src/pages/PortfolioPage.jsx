@@ -6,7 +6,9 @@ function PortfolioPage(){
     return(
         <>
             <Header />
-            <PotrfolioContainer />
+            <div className="pt-20">
+                <PotrfolioContainer />
+            </div>
             <Footer />
         </>
 

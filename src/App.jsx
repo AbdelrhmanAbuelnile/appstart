@@ -12,7 +12,12 @@ function App() {
     <div className="bg-fourth font-primary overflow-hidden">
       <Header />
       <HomeHero />
-      <PotrfolioContainer />
+      <div className="flex flex-col justify-center items-center pt-20">
+          <h1 className="text-4xl text-primary font-extrabold ">
+            Portfolio
+          </h1>
+        <PotrfolioContainer />
+      </div>
       <HomeServices />
 
       <Footer />

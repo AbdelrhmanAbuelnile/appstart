@@ -15,8 +15,9 @@ export default {
         'primary' : ['Poppins']
       },
       colors: {
-        'primary': '#053B50',
-        'secondry': '#176B87',
+        // 'primary': '#053B50',
+        'primary': '#1e1e1e',
+        'secondry': '#2f2f2f',
         'third': '#64CCC5',
         'fourth': '#fafafa',
         'fifth': '#242CBF'
