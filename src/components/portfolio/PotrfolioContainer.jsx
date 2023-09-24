@@ -1,5 +1,4 @@
 import ProjectCard from "./ProjectCard";
-// import { motion } from "framer-motion"
 
 import screen1 from "../../assets/app1/screen1.png";
 import screen2 from "../../assets/app1/screen2.png";
@@ -77,24 +76,25 @@ function PotrfolioContainer() {
 
   const betybetk = {
     title: "BetyBetk",
-    description: "A user-friendly real estate app for seamless property buying, selling, and management, revolutionizing the industry.",
-  }
+    description:
+      "A user-friendly real estate app for seamless property buying, selling, and management, revolutionizing the industry.",
+  };
 
-    const technomedia = {
-        title: "Technomedia",
-        description: " Your go-to news app, delivering the latest in tech and media with speed and precision.",
-    }
-    const handleClick = (e) => {
-      e.stopPropagation();
-    };
+  const technomedia = {
+    title: "Technomedia",
+    description:
+      " Your go-to news app, delivering the latest in tech and media with speed and precision.",
+  };
+  const handleClick = (e) => {
+    e.stopPropagation();
+  };
   return (
     <div
       className="flex flex-col justify-center items-center overflow-hidden"
       onClick={handleClick}
     >
-      <ProjectCard screen={screen} text={betybetk}/>
+      <ProjectCard screen={screen} text={betybetk} />
       <ProjectCard screen={secondApp} text={technomedia} />
-      {/* {projectCard} */}
     </div>
   );
 }
