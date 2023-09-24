@@ -11,7 +11,6 @@ import AndroidIcon from '@mui/icons-material/Android';
 import '../../footer.css'
 
 function ProjectCard({screen, text}){
-    // console.log(screen)
 
     const screen2 = 'betybetk wireframe2';
 

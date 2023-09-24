@@ -15,12 +15,6 @@ import secondApp2 from "../../assets/app2/screen2.png";
 import secondApp3 from "../../assets/app2/screen3.png";
 import secondApp4 from "../../assets/app2/screen4.png";
 import secondApp5 from "../../assets/app2/screen5.png";
-import secondApp6 from "../../assets/app2/screen6.png";
-import secondApp7 from "../../assets/app2/screen7.png";
-import secondApp8 from "../../assets/app2/screen8.png";
-import secondApp9 from "../../assets/app2/screen9.png";
-import secondApp10 from "../../assets/app2/screen10.png";
-import secondApp11 from "../../assets/app2/screen11.png";
 
 function PotrfolioContainer() {
   const screen = [
@@ -79,30 +73,6 @@ function PotrfolioContainer() {
       image: secondApp5,
       alt: "technomedia wireframe5",
     },
-    {
-      image: secondApp6,
-      alt: "technomedia wireframe6",
-    },
-    {
-      image: secondApp7,
-      alt: "technomedia wireframe7",
-    },
-    {
-      image: secondApp8,
-      alt: "technomedia wireframe8",
-    },
-    {
-      image: secondApp9,
-      alt: "technomedia wireframe9",
-    },
-    {
-      image: secondApp10,
-      alt: "technomedia wireframe10",
-    },
-    {
-      image: secondApp11,
-      alt: "technomedia wireframe11",
-    },
   ];
 
   const betybetk = {
@@ -114,16 +84,18 @@ function PotrfolioContainer() {
         title: "Technomedia",
         description: " Your go-to news app, delivering the latest in tech and media with speed and precision.",
     }
-
+    const handleClick = (e) => {
+      e.stopPropagation();
+    };
   return (
-    <section
-      id="portfolio"
+    <div
       className="flex flex-col justify-center items-center overflow-hidden"
+      onClick={handleClick}
     >
       <ProjectCard screen={screen} text={betybetk}/>
       <ProjectCard screen={secondApp} text={technomedia} />
       {/* {projectCard} */}
-    </section>
+    </div>
   );
 }
 

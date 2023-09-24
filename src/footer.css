@@ -37,7 +37,7 @@ div .swiper-pagination-bullet-active {
   animation: bolbol 5s ease infinite ;
 }
 
-/* @keyframes bolbol {
+@keyframes bolbol {
   0% {
     transform: translateY(-10%);
   }
@@ -47,4 +47,4 @@ div .swiper-pagination-bullet-active {
   100% {
     transform: translateY(+10%);
   }
-} */
+}

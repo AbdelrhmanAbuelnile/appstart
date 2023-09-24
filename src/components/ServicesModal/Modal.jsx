@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import BackDrop from "../BackDrop";
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -25,30 +24,30 @@ function Modal({ toggleModal, text }) {
             </p>
           ))}
         </div>
-        <Link 
-            to={'/about'}
+        {/* <span 
             className="
                 align-self text-2xl text-white font-semibold
                 hover:text-primary duration-150
-                px-4 py-2 rounded-2xl bg-pink-500 
+                px-4 py-2 rounded-2xl bg-secondry 
                 shadow-md shadow-slate-400
             " 
         >
             Get Started
-        </Link>
+        </span> */}
         <CloseIcon
             onClick={toggleModal} 
             fontSize='large'
             className='
                 text-secondry
                 absolute top-1 right-3 cursor-pointer
+                hover:text-red-500 duration-500
             '
         />
 
         <span 
             className="
                 text-xl text-white font-semibold
-                bg-third px-4 py-2 rounded-3xl
+                bg-secondry px-4 py-2 rounded-3xl
                 absolute -top-6 -left-12
             "
         >
