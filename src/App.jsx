@@ -4,6 +4,7 @@ import HomeHero from "./components/Home/HomeHero"
 import HomeServices from "./components/Home/HomeServices"
 import ScrollToTopButton from "./components/ScrollToTopButton"
 import PotrfolioContainer from "./components/portfolio/PotrfolioContainer"
+import { Analytics } from "@vercel/analytics/react";
 
 
 
@@ -22,6 +23,7 @@ function App() {
       <ScrollToTopButton />
       <HomeServices />
       <Footer />
+      <Analytics />
     </div>
   )
 }
